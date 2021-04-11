@@ -3,9 +3,7 @@ import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-login-page',
-  template: `
-    Username: <input type="text" [formControl] = "username">
-  `
+  templateUrl: './login-page.component.html',
 })
 export class LoginPageComponent {
 
