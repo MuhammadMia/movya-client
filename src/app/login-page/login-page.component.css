@@ -1,109 +1,43 @@
-.u-section-1 {
-    min-height: 953px;
-  }
-  
-  .u-section-1 .u-image-1 {
-    width: 375px;
-    height: 812px;
-    margin: 60px auto 0;
-  }
-  
-  .u-section-1 .u-group-1 {
-    width: 375px;
-    margin: -812px auto 60px;
-  }
-  
-  .u-section-1 .u-container-layout-1 {
-    padding: 30px 0 0;
-  }
-  
-  .u-section-1 .u-shape-1 {
-    height: 782px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  .u-section-1 .u-btn-1 {
-    font-size: 0.9375rem;
-    border-style: solid;
-    text-transform: uppercase;
-    background-image: none;
-    font-weight: 700;
-    font-family: "Josefin Sans";
-    margin: -199px auto 0;
-  }
-  
-  .u-section-1 .u-text-1 {
-    background-image: none;
-    text-shadow: 9px 16px 40px rgba(255,255,255,0.4);
-  }
-  
-  .u-section-1 .u-text-2 {
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: "Josefin Sans";
-    width: 229px;
-    margin: 0 auto 699px;
-  }
-  
-  @media (max-width: 1199px) {
-    .u-section-1 .u-group-1 {
-      margin-top: -659px;
-      margin-left: 383px;
-    }
-  
-    .u-section-1 .u-shape-1 {
-      height: 531px;
-      margin-top: -782px;
-    }
-  
-    .u-section-1 .u-btn-1 {
-      margin-top: -201px;
-    }
-  }
-  
-  @media (max-width: 991px) {
-    .u-section-1 .u-group-1 {
-      margin-left: 345px;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .u-section-1 .u-group-1 {
-      margin-left: 165px;
-    }
-  }
-  
-  @media (max-width: 575px) {
-    .u-section-1 .u-image-1 {
-      width: calc(((100% - 340px) / 2) + 390px);
-      height: 952px;
-      margin-top: 1px;
-      margin-left: 0;
-    }
-  
-    .u-section-1 .u-group-1 {
-      min-height: 812px;
-      margin-top: -952px;
-      margin-bottom: 0;
-      margin-right: initial;
-      margin-left: initial;
-      width: auto;
-    }
-  
-    .u-section-1 .u-shape-1 {
-      height: 670px;
-      margin-top: 251px;
-    }
-  
-    .u-section-1 .u-btn-1 {
-      margin-top: -257px;
-    }
-  
-    .u-section-1 .u-text-1 {
-      font-family: "Josefin Sans";
-      font-size: 4.5rem;
-      width: 276px;
-      margin: -662px auto 0;
-    }
-  }
+.loginpage {
+  display: inline;
+  height: 100%;
+}
+
+.background {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100%;
+  margin-top: -10px;
+  background-color: black;
+}
+
+.background img {
+  height: 110%;
+  width: 100%;
+  opacity: 50%;
+}
+
+/* Controls all of the content div */
+.content {
+  /* To center these elements */
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Controls all h1's inside the content div */
+.content h1 {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 8vh;
+}
+
+.content p {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -40px;
+}
