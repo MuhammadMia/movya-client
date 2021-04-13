@@ -4,7 +4,7 @@
 }
 
 .background {
-  position: fixed;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
@@ -14,7 +14,7 @@
 }
 
 .background img {
-  height: 110%;
+  height: 100%;
   width: 100%;
   opacity: 50%;
 }
@@ -33,11 +33,11 @@
 .content h1 {
   color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 8vh;
+  font-size: 4vh;
 }
 
-.content p {
-  color: azure;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: -40px;
+.content img {
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
 }
