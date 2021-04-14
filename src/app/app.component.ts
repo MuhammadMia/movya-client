@@ -4,9 +4,9 @@ import { HomeComponent } from './home/home.component'
 @Component({
   selector: 'app-root',
   template: `
-    <app-home></app-home>
+    <home></home>
   `,
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./home/home.component.css']
 })
 export class AppComponent {
   title = 'movya-client';
