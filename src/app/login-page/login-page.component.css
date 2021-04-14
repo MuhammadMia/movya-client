@@ -36,6 +36,12 @@
   font-size: 4vh;
 }
 
+.content h2 {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2vh;
+}
+
 .content img {
   height: 100%;
   width: 100%;
