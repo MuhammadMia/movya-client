@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { HomeComponent } from './home/home.component'
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
   template: `
-    <home></home>
+    <router-outlet></router-outlet>
   `,
   styleUrls: ['./home/home.component.css']
 })
 export class AppComponent {
-  title = 'movya-client';
+  title = 'Movya';
 }

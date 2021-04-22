@@ -16,6 +16,9 @@ import { LocationComponent } from './location/location.component';
 import { GarageComponent } from './garage/garage.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { LandingComponent } from './landing/landing.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { Routes, RouterModule, Router } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,8 @@ import { LandingComponent } from './landing/landing.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

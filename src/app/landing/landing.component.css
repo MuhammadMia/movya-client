@@ -1,49 +1,73 @@
 .landingpage {
-    display: inline;
-    height: 100%;
-  }
-  
-  .background {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
-    width: 100%;
-    margin-top: -10px;
-    background-color: black;
-  }
-  
-  .background img {
-    height: 110%;
-    width: 100%;
-    opacity: 50%;
-  }
-  
-  /* Controls all of the content div */
-  .content {
-    /* To center these elements */
-    position: fixed;
-    top: 150px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
-  
-  /* Controls all h1's inside the content div */
-  .content h1 {
-    color: #f0f8ff;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 8vh;
-  }
-  
-  .content p {
-    color: azure;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -40px;
-  }
+  display: inline;
+  height: 100%;
+}
 
-  .content a {
-    color: azure;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -80px;
-  }
+.background {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.background img {
+  height: 110%;
+  width: 100%;
+  opacity: 50%;
+}
+
+/* Controls all of the content div */
+.content {
+  /* To center these elements */
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Controls all h1's inside the content div */
+.content h1 {
+  color: #f0f8ff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 8vh;
+}
+
+.content p {
+  color: azure;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content a {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -80px;
+}
+
+.buttons {
+  margin-top: 400px;
+  width: 100%;
+}
+
+.buttons a {
+  color: black;
+  stroke-width: 3px;
+  width: 90%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.buttons .login {
+  margin: 5px;
+  padding: 5px;
+}
+
+.buttons .register {
+  margin: 5px;
+  padding: 5px;
+}
