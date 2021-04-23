@@ -18,7 +18,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { LandingComponent } from './landing/landing.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { Routes, RouterModule, Router } from '@angular/router';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { Routes, RouterModule, Router } from '@angular/router';
     LocationComponent,
     GarageComponent,
     SidebarComponent,
-    LandingComponent
+    LandingComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +46,8 @@ import { Routes, RouterModule, Router } from '@angular/router';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

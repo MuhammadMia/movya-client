@@ -3,15 +3,28 @@
   <div class="background">
     <img src="./assets/img/loginPageBack.png">
   </div>
-  
+
   <div class="content">
-    <h1>Log in or Sign Up</h1>
-    <img src="./assets/img/userPass.png">
-    <img src="./assets/img/logIn.png">
-    <h2>Or</h2>
-    <img src="./assets/img/signUp.png">
-    <img src="./assets/img/signGoogle.png">
-    <img src="./assets/img/signFacebook.png">
+    <h1>login</h1>
+
+    <div class="form">
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="hello@movya.com">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password">
+        <mat-hint><a>Forgot password</a></mat-hint>
+      </mat-form-field>
+
+      <div class="submit"><a mat-raised-button color="black" routerLink="/home">Login</a></div>
+    </div>
+  </div>
+
+  <div class="register">
+    <a mat-button routerLink="/signup">Not a member? Sign up instead</a>
   </div>
 
 </div>
