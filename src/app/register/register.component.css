@@ -29,12 +29,12 @@
 /* Controls all of the content div */
 .content {
   /* To center these elements */
-  position: fixed;
-  top: 100px;
+  position: relative;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -45,6 +45,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 4vh;
   font-weight: 500;
+  margin-top: 20%;
 }
 
 .content p {
@@ -89,9 +90,14 @@
   color: black;
 }
 
-.register {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  left: 19%;
+.login button {
+  background-color: rgb(31, 196, 247);
+  color: white;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.login .mat-raised-button:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 6px rgba(0, 183, 255, 0.5),
+    0 10px 10px rgba(0, 183, 255, 0.1);
 }

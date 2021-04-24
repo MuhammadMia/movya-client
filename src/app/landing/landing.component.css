@@ -22,7 +22,7 @@
 .content {
   /* To center these elements */
   position: fixed;
-  top: 150px;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -50,8 +50,10 @@
 }
 
 .buttons {
-  margin-top: 400px;
+  margin-bottom: 20%;
   width: 100%;
+  position: absolute;
+  bottom: 10%;
 }
 
 .buttons button {
