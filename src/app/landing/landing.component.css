@@ -43,7 +43,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.content a {
+.content button {
   color: azure;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -80px;
@@ -54,7 +54,7 @@
   width: 100%;
 }
 
-.buttons a {
+.buttons button {
   color: black;
   stroke-width: 3px;
   width: 90%;
@@ -70,4 +70,14 @@
 .buttons .register {
   margin: 5px;
   padding: 5px;
+}
+
+.register button {
+  background-color: rgb(31, 196, 247);
+  color: white;
+}
+
+.register .mat-raised-button:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 6px rgba(0, 183, 255, 0.5),
+    0 10px 10px rgba(0, 183, 255, 0.1);
 }

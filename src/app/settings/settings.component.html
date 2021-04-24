@@ -1,2 +1,39 @@
-<p>settings works!</p>
-<app-navbar></app-navbar>
+<div class="settings">
+
+    <div class="hero">
+        <div class="herocontent">
+            <h1>Settings</h1>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button mat-raised-button>
+            <div class="label">
+                <mat-icon>credit_card</mat-icon>
+                <h2>Preferences</h2>
+            </div>
+        </button>
+        <button mat-raised-button>
+            <div class="label">
+                <mat-icon>settings</mat-icon>
+                <h2>Profile</h2>
+            </div>
+        </button>
+        <button mat-raised-button>
+            <div class="label">
+                <mat-icon>build</mat-icon>
+                <h2>App Version - 0.1 Alpha</h2>
+            </div>
+        </button>
+        <div class="logout">
+            <button mat-raised-button routerLink="">
+                <div class="label">
+                    <mat-icon>exit_to_app</mat-icon>
+                    <h2>Log out</h2>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <app-navbar></app-navbar>
+</div>
